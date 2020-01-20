@@ -1,0 +1,6 @@
+---
+- name: "deploy package"
+  package:
+      name: "{{ item }}"
+      state: present
+  with_items: "{{ package }}"

@@ -1,0 +1,7 @@
+---
+- name: "Key ssh"
+  authorized_key:
+       user: "{{ item }}"
+       key: "{{ lookup('file', 'keys/id_{{item}}.pub') }}"
+       exculsive: true
+  with_items: "{{ users }}"

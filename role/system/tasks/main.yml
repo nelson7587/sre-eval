@@ -1,0 +1,5 @@
+---
+
+- import_tasks: adduser.yml
+- import_tasks: package.yml
+- import_tasks: ssh.yml

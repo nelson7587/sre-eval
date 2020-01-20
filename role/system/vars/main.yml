@@ -1,0 +1,4 @@
+---
+users_w1: [client1, client2]
+users_w2: [client3, client4]
+package: [apache2, mysql, php, mysql, phpmysql]

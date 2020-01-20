@@ -1,0 +1,12 @@
+---
+- name: "add user w1"
+  user:
+     name: "{{ item }}"
+     shell: /bin/bash
+  with_items: "{{ users_w1 }}"
+
+- name: "add user w2"
+  user:
+     name: "{{ item }}"
+     shell: /bin/bash
+  with_items: "{{ user_w2 }}"
