@@ -1,0 +1,6 @@
+---
+
+- become: true
+  hosts: all
+  roles:
+          - system
