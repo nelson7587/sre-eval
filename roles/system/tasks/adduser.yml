@@ -9,4 +9,4 @@
   user:
      name: "{{ item }}"
      shell: /bin/bash
-  with_items: "{{ user_w2 }}"
+  with_items: "{{ users_w2 }}"
